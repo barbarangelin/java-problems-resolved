@@ -1,4 +1,4 @@
-##Two Sum Java Problem
+#Two Sum Java Problem
 
 @ Adapted from LeetCode 
 
