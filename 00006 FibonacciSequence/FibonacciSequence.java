@@ -6,12 +6,13 @@ package program.fibonaccisequence;
 
 /**
  *
- * @author barba
+ * @author Barbara Angelin
  */
 public class FibonacciSequence {
 
     public static long fibonacciSequence (int n){
-       // Fibonacci sequence = {1,1,2,3,5,8,13,...}
+        // Fibonacci sequence = {1,1,2,3,5,8,13,...}
+        // un = u(n-1) + u(n-2) {source: A History of Mathematics by Boyer}
         long [] aux = new long [n+1];
         // For n = 0 return 0.
         if (n == 0){
