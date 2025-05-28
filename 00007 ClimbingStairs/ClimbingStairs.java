@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author barba
+ * @author Barbara Angelin
  */
 public class ClimbingStairs {
 
