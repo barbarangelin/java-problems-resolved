@@ -38,9 +38,5 @@ public class LongestPrefix {
         String [] ex2 = {"dog","racecar","car"};
         String [] ex3 = {"ab", "a"};
         System.out.println(longestCommonPrefix(ex3));
-        //System.out.println(ex3[1].subSequence(0, 0));
-        String result = "2";
-        ///esult+= ex1[0].charAt(0);
-       //System.out.println(ex3[0].length());
     }
 }
