@@ -8,6 +8,7 @@ package program.longestprefix;
  *
  * @author Barbara Angelin
  */
+//Constraints:
 //1 <= strs.length <= 200
 //0 <= strs[i].length <= 200
 //strs[i] consists of only lowercase English letters if it is non-empty.
@@ -15,7 +16,7 @@ public class LongestPrefix {
 
     public static String longestCommonPrefix(String[] strs) {
         for (int x = 0; x <= strs[0].length()-1; x++){ // for character
-            for (int y = 1; y <= strs.length-1; y++){ // for the second pararel
+            for (int y = 1; y <= strs.length-1; y++){ // for the second parallel
                 if (  x >= strs[y].length() || strs[0].charAt(x) != strs[y].charAt(x) ){
                     if (x == 0){
                         return "";
