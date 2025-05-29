@@ -1,27 +1,31 @@
-# Porblem Longest Common Prefix from [LeetCode](https://leetcode.com/problems/longest-common-prefix/description/) Resolved
+# Porblem Search Insert Position from [LeetCode](https://leetcode.com/problems/search-insert-position/description/) Resolved
 
-*Write a function to find the longest common prefix string amongst an array of strings.*
+*Given a sorted array of distinct integers and a target value, return the index if the target is found. If not, return the index where it would be if it were inserted in order.*
 
-*If there is no common prefix, return an empty string "".*
-
- 
+*You must write an algorithm with O(log n) runtime complexity.*
 
 **Example 1:**
 ````
-Input: strs = ["flower","flow","flight"]
-Output: "fl"
+Input: nums = [1,3,5,6], target = 5
+Output: 2
 ````
 **Example 2:**
 ````
-Input: strs = ["dog","racecar","car"]
-Output: ""
-Explanation: There is no common prefix among the input strings.
-```` 
+Input: nums = [1,3,5,6], target = 2
+Output: 1
+````
+**Example 3:**
+````
+Input: nums = [1,3,5,6], target = 7
+Output: 4
+ ````
 
 **Constraints:**
 
-> 1 <= strs.length <= 200
+> 1 <= nums.length <= 104
 
-> 0 <= strs[i].length <= 200
+> -104 <= nums[i] <= 104
 
-> strs[i] consists of only lowercase English letters if it is non-empty.
+> nums contains distinct values sorted in ascending order.
+
+> -104 <= target <= 104
