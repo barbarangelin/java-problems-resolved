@@ -1,4 +1,4 @@
-# Problem Single Number Position from [LeetCode](https://leetcode.com/problems/single-number/description/) Resolved
+# Problem Single Number from [LeetCode](https://leetcode.com/problems/single-number/description/) Resolved
 
 **Given a non-empty array of integers nums, every element appears twice except for one. Find that single one.**
 
