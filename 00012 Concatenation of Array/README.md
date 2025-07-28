@@ -31,5 +31,7 @@ Explanation: The array ans is formed as follows:
 **Constraints:**
 
 > n == nums.length
+
 > 1 <= n <= 1000
+
 > 1 <= nums[i] <= 1000
